@@ -13,5 +13,6 @@ This is bot xmetacene and just for fun ^_^
 - Create .env file & Paste your bot detail
 
 TELEGRAM_BOT_TOKEN=
+
 TELEGRAM_CHAT_ID=
 
