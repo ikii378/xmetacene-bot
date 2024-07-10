@@ -1,8 +1,8 @@
 <?php
 // Fungsi untuk mengirim pesan ke Telegram
 function kirimKeTelegram($pesan) {
-    $tokenBotTelegram = '1738476070:AAH4VWw4zr_4cUxHMQ9qvoTRK-iGMxKI2oc'; // Ganti dengan token bot Anda
-    $chatId = '-524934115'; // Ganti dengan ID chat Anda
+    $tokenBotTelegram = 'YOUR_TOKEN'; // Ganti dengan token bot Anda
+    $chatId = 'CHAT_ID'; // Ganti dengan ID chat Anda
     $urlTelegram = "https://api.telegram.org/bot$tokenBotTelegram/sendMessage";
 
     $dataPost = [
